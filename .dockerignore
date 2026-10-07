@@ -1,7 +1,8 @@
 .git
-.gitignore
 .env
 .env.*
+!.env.example
+database/database.sqlite
 node_modules
+tests
 vendor
-storage/logs/*
