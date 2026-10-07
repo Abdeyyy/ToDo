@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Tasks extends Model
 {
+    protected $table = 'tasks';
+
     protected $fillable = [
         'user_id',
         'category_id',
